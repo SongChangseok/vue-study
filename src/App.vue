@@ -1,10 +1,7 @@
 <script setup>
-import { ref } from 'vue'
-import Modifiers from './components/Modifiers/Modifiers.vue'
-
-const myText = ref('')
+import FallThrough from './components/FallThrough/index.vue'
 </script>
 
 <template>
-  <Modifiers v-model:title-value.capitalize="myText" />
+  <FallThrough />
 </template>
