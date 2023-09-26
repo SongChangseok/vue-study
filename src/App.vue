@@ -1,7 +1,10 @@
 <script setup>
-import Tabs from './components/Tabs/Tabs.vue'
+import { ref } from 'vue'
+import Modifiers from './components/Modifiers/Modifiers.vue'
+
+const myText = ref('')
 </script>
 
 <template>
-  <Tabs />
+  <Modifiers v-model:title-value.capitalize="myText" />
 </template>
