@@ -1,7 +1,7 @@
 <script setup>
-import FallThrough from './components/FallThrough/index.vue'
+import Slot from './components/Slot/index.vue'
 </script>
 
 <template>
-  <FallThrough />
+  <Slot />
 </template>
