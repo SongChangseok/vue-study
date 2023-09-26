@@ -9,5 +9,5 @@ import MyButton from './MyButton.vue'
 </script>
 
 <template>
-  <MyButton class="btn" />
+  <MyButton class="btn" @click="console.log('index')" />
 </template>
