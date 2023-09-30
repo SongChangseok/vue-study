@@ -1,7 +1,7 @@
 <script setup>
-import NamedSlot from './components/NamedSlot/index.vue'
+import ProvideAndInject from './components/ProvideAndInject/index.vue'
 </script>
 
 <template>
-  <NamedSlot />
+  <ProvideAndInject />
 </template>
