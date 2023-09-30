@@ -1,7 +1,7 @@
 <script setup>
-import Slot from './components/Slot/index.vue'
+import NamedSlot from './components/NamedSlot/index.vue'
 </script>
 
 <template>
-  <Slot />
+  <NamedSlot />
 </template>
