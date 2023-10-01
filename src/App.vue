@@ -1,7 +1,7 @@
 <script setup>
-import Composables from './components/Composables/index.vue'
+import CustomDirective from './components/CustomDirective/index.vue'
 </script>
 
 <template>
-  <Composables />
+  <CustomDirective />
 </template>
