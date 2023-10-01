@@ -1,4 +1,5 @@
 import { onMounted, onUnmounted, ref } from 'vue'
+import { useEventListener } from './useEventListener'
 
 export const useMouse = () => {
   const x = ref(0)
@@ -9,8 +10,7 @@ export const useMouse = () => {
     y.value = e.pageY
   }
 
-  onMounted(() => window.addEventListener('mousemove', update))
-  onUnmounted(() => window.removeEventListener, ('mousemove', update))
+  useEventListener(window, 'mousemove', update)
 
   return { x, y }
 }
