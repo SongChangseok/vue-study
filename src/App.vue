@@ -1,7 +1,7 @@
 <script setup>
-import ProvideAndInject from './components/ProvideAndInject/index.vue'
+import Composables from './components/Composables/index.vue'
 </script>
 
 <template>
-  <ProvideAndInject />
+  <Composables />
 </template>
