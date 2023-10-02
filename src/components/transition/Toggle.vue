@@ -7,19 +7,19 @@ const toggleHandler = () => (show.value = !show.value)
 
 <template>
   <button @click="toggleHandler">토글</button>
-  <Transition>
+  <Transition name="fade">
     <p v-if="show">안녕</p>
   </Transition>
 </template>
 
 <style>
-.v-enter-active,
-.v-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.5s ease;
 }
 
-.v-enter-from,
-.v-leave-to {
+.fade-enter-from,
+.fade-leave-to {
   opacity: 0;
 }
 </style>
