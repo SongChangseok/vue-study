@@ -1,7 +1,7 @@
 <script setup>
-import TransitionStudy from './components/transition/index.vue'
+import KeepAliveStudy from './components/keepAlive/index.vue'
 </script>
 
 <template>
-  <TransitionStudy />
+  <KeepAliveStudy />
 </template>
