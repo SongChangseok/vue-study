@@ -1,7 +1,7 @@
 <script setup>
-import PluginsStudy from './components/plugins/index.vue'
+import TransitionStudy from './components/transition/index.vue'
 </script>
 
 <template>
-  <PluginsStudy />
+  <TransitionStudy />
 </template>
