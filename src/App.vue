@@ -1,7 +1,7 @@
 <script setup>
-import CustomDirective from './components/CustomDirective/index.vue'
+import PluginsStudy from './components/plugins/index.vue'
 </script>
 
 <template>
-  <CustomDirective />
+  <PluginsStudy />
 </template>
