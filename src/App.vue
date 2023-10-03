@@ -1,7 +1,7 @@
 <script setup>
-import KeepAliveStudy from './components/keepAlive/index.vue'
+import TeleportStudy from './components/teleport/index.vue'
 </script>
 
 <template>
-  <KeepAliveStudy />
+  <TeleportStudy />
 </template>

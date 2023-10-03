@@ -12,7 +12,7 @@ const current = shallowRef(TabA)
   </div>
 
   <!-- 여러 컴포넌트 간에 동적으로 전환될 때, 컴포넌트 인스턴스를 조건부로 캐시할 수 있는 빌트인 컴포넌트입니다. -->
-  <KeepAlive include="TabA">
+  <KeepAlive include="TabA" :max="1">
     <component :is="current" />
   </KeepAlive>
 </template>
